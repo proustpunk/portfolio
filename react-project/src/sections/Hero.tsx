@@ -20,7 +20,7 @@ function Hero() {
       
       
     
-      <h1 className="hero-title">Sabin Pyakurel / Backend Developer</h1>
+      <h1 className="hero-title">Sabin Pyakurel </h1>
       <div className="hero-image">
         <img src={profileImg} alt="profile" />
       </div>

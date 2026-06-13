@@ -5,6 +5,7 @@ import About from "./sections/About";
 import Education from "./sections/Education";
 import Skills from "./sections/Skills";
 import { useEffect, useState } from "react";
+import Contact from "./sections/Contact";
 
 /*type Story = {
   id: number;
@@ -36,6 +37,7 @@ function App() {
       <Education />
       <Skills />
       <Projects />
+      <Contact />
 </div>
   //{data.map((singleData) => (
         //<h1 key={singleData.id}>
