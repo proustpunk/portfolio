@@ -11,6 +11,13 @@ function Projects() {
   }, [filter]);
 
   const projects = [
+
+    {
+      title: "Transformer From Scratch",
+      type: "Machine Learning",
+      description: "Used just numpy and manually calculated gradients to build a transformer from very scratch.",
+      github: "https://github.com/proustpunk/Transformer",
+    },
     {
       title: "End-to-end complete ATS system",
       type: "Backend",
@@ -51,6 +58,7 @@ function Projects() {
         <button onClick={() => setFilter("Game")}>Game</button>
         <button onClick={() => setFilter("Dataset")}>Dataset</button>
         <button onClick={() => setFilter("Backend")}>Backend</button>
+        <button onClick={() => setFilter("ML")}>Backend</button>
       </div>
       <div className="projects-grid">
         {filteredProjects.map((p, i) => (
