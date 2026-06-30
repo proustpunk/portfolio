@@ -14,7 +14,7 @@ function Projects() {
 
     {
       title: "Transformer From Scratch",
-      type: "Machine Learning",
+      type: "ML",
       description: "Used just numpy and manually calculated gradients to build a transformer from very scratch.",
       github: "https://github.com/proustpunk/Transformer",
     },
@@ -58,7 +58,7 @@ function Projects() {
         <button onClick={() => setFilter("Game")}>Game</button>
         <button onClick={() => setFilter("Dataset")}>Dataset</button>
         <button onClick={() => setFilter("Backend")}>Backend</button>
-        <button onClick={() => setFilter("ML")}>Backend</button>
+        <button onClick={() => setFilter("ML")}>Machine Learning</button>
       </div>
       <div className="projects-grid">
         {filteredProjects.map((p, i) => (
